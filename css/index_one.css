@@ -1,0 +1,31 @@
+/*First element of the page */
+body {
+    background: linear-gradient(to bottom, black, brown) fixed;
+  }
+/* First element ends here */
+
+/* Second element of the page */ 
+.spooky-element-one {
+    position: relative; 
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  
+  .spooky-element-one img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+  @keyframes example {
+    0%   { left:0px; top:0px;}
+    20%  { left:200px; top:0px;}
+    40%  { left:0px; top:200px;}
+    60%  { left:80px; top:0px;}
+    80%  { left:200px; top:200px;}
+    100% { left:0px; top:0px;}
+  }
+ /* Second element of the page ends here */ 
