@@ -1,31 +1,142 @@
-/*First element of the page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+p {
+  font-weight: 300;
+  color: black;
+}
 body {
-    background: linear-gradient(to bottom, black, brown) fixed;
-  }
-/* First element ends here */
+  min-height: 1000px;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://cdn.timefordisclosure.com/wp-content/uploads/2021/04/maxresdefault-1-24.jpg);
+  background-size: cover;
+}
+.banner .content {
+  max-width: 900px;
+  text-align: center;
+}
+.banner .content h1 {
+  font-size: 5em;
+  color: antiquewhite;
+}
+.banner .content p {
+  font-size: 1em;
+  color: black;
+}
+.btn {
+  font-size: 1em;
+  color:black;
+  background: lightsalmon ;
+  font-weight: 300;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+.btn:hover{
+  letter-spacing: 6px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+header .sticky {
+  background: #fff;
+  padding: 10px 100px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+header .logo {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+header .sticky .logo {
+  color: black;
+}
+header .logo span {
+  color: #ff0157;
+}
+header .navigation {
+  position: relative;
+  display: flex;
+}
+header .navigation li {
+  list-style: none;
+  margin-left: 30px;
+}
+header .navigation li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+}
+header .navigation li a:hover {
+  color:red;
+  font-weight: 300;
+}
+header .sticky .navigation li a{
+  color: #111;
+}
+header .sticky .navigation li a:hover {
+  color:red;
+  font-weight: 300;
+}
 
-/* Second element of the page */ 
-.spooky-element-one {
-    position: relative; 
-    animation-name: example;
-    animation-duration: 4s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-  }
-  
-  .spooky-element-one img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-  }
-  
-  @keyframes example {
-    0%   { left:0px; top:0px;}
-    20%  { left:200px; top:0px;}
-    40%  { left:0px; top:200px;}
-    60%  { left:80px; top:0px;}
-    80%  { left:200px; top:200px;}
-    100% { left:0px; top:0px;}
-  }
- /* Second element of the page ends here */ 
+section {
+  padding: 100px;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.row .col50 {
+  position: relative;
+  width: 48%;
+}
+.titleText {
+  color: #111;
+  font-size: 2em;
+  font-weight: 300;
+}
+.titleText span {
+  color: #ff0157;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+.row .col50 .imgBx {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+}
+.row .col50 .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
