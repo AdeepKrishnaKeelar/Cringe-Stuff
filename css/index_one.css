@@ -217,6 +217,49 @@ section {
   font-weight: 400;
   color: #111;
 }
+.testimonials {
+  background: url(https://ufodaily.com/wp-content/uploads/2021/04/Incredible-UFO-Video-May-Be-The-Best-Ever-Recorded.jpg);
+  background-size: cover;
+}
+.testimonials .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.testimonials .content .box {
+  width: 400px;
+  margin: 20px;
+  padding: 40px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.testimonials .content .box .imgBx {
+  position: relative;
+  width: 390px;
+  height:390px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  overflow:hidden;
+}
+.testimonials .content .box .text {
+  text-align: center;
+}
+.testimonials .content .box .text p {
+  color: #667;
+  font-style: italic;
+}
+.testimonials .content .box .text h3 {
+  margin-top: 20px;
+  color: #111;
+  font-size: 2em;
+  font-weight: bold;
+}
+
 .contact {
   background: url(https://cdn.images.express.co.uk/img/dynamic/151/590x/secondary/al-641091.jpg);
   background-size: cover;
