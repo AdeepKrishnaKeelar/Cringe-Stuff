@@ -105,6 +105,7 @@ header .sticky .navigation li a:hover {
 }
 
 section {
+ /* background: url(https://i.pinimg.com/originals/25/59/29/25592947a9cd4f8d67bf1dc78655609a.jpg); */
   padding: 100px;
 }
 
@@ -183,6 +184,11 @@ section {
 .menu .content .box .text h3 {
   font-weight: 400;
   color: #111;
+  align-items: center;
+}
+.menu .content .box .text p {
+  font-size: 1em;
+  color: black;
 }
 
 .expert .content {
@@ -213,8 +219,18 @@ section {
   padding: 15px 0 5px;
 }
 .expert .content .box .text h3 {
+  font-weight: bold;
+  color: red;
+}
+.expert .content .box .text p {
   font-weight: 400;
   color: #111;
+  font-style: italic;
+}
+.expert .content .box .text q {
+  font-weight: bold;
+  color: #111;
+  font-size: 1em;
 }
 .testimonials {
   background: url(https://ufodaily.com/wp-content/uploads/2021/04/Incredible-UFO-Video-May-Be-The-Best-Ever-Recorded.jpg);
