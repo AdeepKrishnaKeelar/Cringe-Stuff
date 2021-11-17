@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/index_one.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <title>Aliens!</title>
 </head>
 <body>
@@ -15,7 +17,8 @@
             <li><a href="#about">About</a></li>
             <li><a href="#menu">Menu</a></li>
             <li><a href="#expert">Expert</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#testimonials">Truth</a></li>
+            <li><a href="#gallery">Gallery</a></li>
             <li><a href="#nowhere">Incidents</a></li>
             <li><a href="#contact">Contact Us</a></li>
         </ul>
@@ -232,14 +235,76 @@
         </div>
     </section>
 
+    <section class="gallery" id="gallery">
+        <div class="title">
+            <h2 class="titleText"><span>Gallery</span></h2>
+            <p> They're watching you... in movies and real life! </p>
+            <p> Damn, I had a hard time getting images, all the good ones are taken. </p>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://www.udtikhabar.com/wp-content/uploads/2016/10/do-aliens-exist-ufo-koi-mil-gaya-600x400.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://i0.wp.com/nypost.com/wp-content/uploads/sites/2/2017/08/aliens.jpg?quality=90&strip=all&ssl=1" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2017_31/2091096/170801-alien-extraterrestrial-mn-1210.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://cnnphilippines.com/.imaging/mte/demo-cnn-new/960/dam/cnn/2016/8/26/aliens.jpg/jcr:content/aliens.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://i.pinimg.com/originals/40/b3/09/40b309e31272920d5dae39feb679ec41.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://i.pinimg.com/originals/ef/20/a4/ef20a435ac2d4f30d91ac934cbef90bd.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://2.bp.blogspot.com/-71Oj0k1mE14/WelNN76OhaI/AAAAAAAASt8/YtD9samI9Vo9SO1mo_sb2s82k50QjwwJACLcBGAs/s1600/2.jpg?is-pending-load=1" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+      
+          <!-- Swiper JS -->
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              effect: "coverflow",
+              grabCursor: true,
+              centeredSlides: true,
+              slidesPerView: "auto",
+              coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+              },
+              loop: true,
+              autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+              },
+              pagination: {
+                el: ".swiper-pagination",
+              },
+            });
+          </script>
+        </section>
+        
     <section class="contact" id="contact">
         <div class="title">
             <h2 class="titleText"><span>Got a story for us?</span> Contact Us!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, autem.</p>
+            <p>We'll listen to anything you say!</p>
         </div>
         <div class="contactForm">
             <form action="https://formspree.io/f/mrgrwrpk" method="POST">
-            <h3>We'll listen to anything you say!</h3>
+            <h3>Only real men with mustaches and girls with steel guts would reveal their horror, they're brave. A litre of petrol says you've got none, go hide in the freezer where you rightfully belong! </h3>
             <div class="inputBox">
                 <label for="Name"> Name </label>
                 <input type="text" placeholder="Name" id="name" name="Name" required>
@@ -264,8 +329,11 @@
     </section> 
 
     <div class="copyrightText">
-        <p> Copyrights: 2021: Site, Creativity and Mastermind: <span> The idiot who made this </span>. All Rights Reserved. </p>
-        <p> Images taken from various sites, I don't own them, and can't thank those guys for making me the ultimate one!</p>
+        <p> Copyrights: 2021: Site, Creativity and Mastermind: <span> Rapscallion Kid, Absent Killer  </span>. All Rights Reserved. </p>
+        <p> Supported and highly encouraged by his gang of awesome world-class idiots, <span>P</span>icture <span>P</span>erfect <span>P</span>oster and <span>A</span>bsolute <span>M</span>ental <span>M</span>athematics</p>
+        <p> Images taken from various sites, I don't own them, and can't thank them enough!</p>
+        <p>This site is serious if you are. If you aren't, the clown was joking about. If you can't take a joke, go back to watching mindless sitcoms, you loser.</p>
+        <p> Swiper.js is sweet, although I have no idea what I did...</p>
     </div>
  
     <script type="text/javascript">

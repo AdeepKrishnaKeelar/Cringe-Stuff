@@ -62,7 +62,7 @@ header {
   align-items: center;
   transition: 0.5s;
 }
-header .sticky {
+header.sticky {
   background: #fff;
   padding: 10px 100px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.05);
@@ -73,7 +73,7 @@ header .logo {
   font-size: 2em;
   text-decoration: none;
 }
-header .sticky .logo {
+header.sticky .logo {
   color: black;
 }
 header .logo span {
@@ -96,10 +96,10 @@ header .navigation li a:hover {
   color:red;
   font-weight: 300;
 }
-header .sticky .navigation li a{
+header.sticky .navigation li a{
   color: #111;
 }
-header .sticky .navigation li a:hover {
+header.sticky .navigation li a:hover {
   color:red;
   font-weight: 300;
 }
@@ -273,6 +273,25 @@ section {
   color: #111;
   font-size: 2em;
   font-weight: bold;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, transparent,#0006);
 }
 
 .contact {
