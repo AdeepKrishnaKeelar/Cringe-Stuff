@@ -204,7 +204,7 @@ section {
 }
 .expert .content .box .imgBx {
   position: relative;
-  width: 100%;
+  width: 125%;
   height: 300px;
 }
 .expert .content .box .imgBx img {
@@ -293,6 +293,25 @@ section {
   width: 100%;
   -webkit-box-reflect: below 1px linear-gradient(transparent, transparent,#0006);
 }
+
+.nowhere .newbox {
+  width: 100%;
+  margin: 25px;
+  border: 15px solid #fff;
+  box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.nowhere .newbox .text p {
+  font-style:italic;
+  font-size: 15px;
+}
+
+.nowhere .newbox .text h2 {
+  text-align:end;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: red ;
+}
+
 
 .contact {
   background: url(https://cdn.images.express.co.uk/img/dynamic/151/590x/secondary/al-641091.jpg);
